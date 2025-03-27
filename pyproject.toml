@@ -1,0 +1,13 @@
+[project]
+name = "weaviatedemo"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "~=3.9"
+dependencies = [
+    "langchain>=0.0.27",
+    "pandas>=2.0.3",
+    "weaviate>=0.1.2",
+    "weaviate-client>=3.26.7,<4.0.0",
+    "sentence-transformers==3.4.1"
+]
